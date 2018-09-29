@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007F66</color>
+    <color name="colorPrimaryDark">#005343</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="viewColor">#fcfcfc</color>
+
+    <!-- theme color: dracula -->
+    <color name="colorDracula">#36454F</color>
+    <color name="colorDraculaDark">#232B2B</color>
+
+    <!-- theme color: blue -->
+    <color name="colorBlue">#28589C</color>
+    <color name="colorDarkBlue">#003366</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

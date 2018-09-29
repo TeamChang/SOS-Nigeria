@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SOS Nigeria</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SOS Nigeria</string>
+    <string name="appEmail">changtechnologies@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">SOS Nigeria is an android emergency app with list of all the
+        major emergency numbers in Nigeria. A lot of Nigerians don\'t know or have these numbers because
+        some are too long to remember. SOS Nigeria makes it easy with just the click of a button.
+        Lets come together and make Nigeria a better place. </string>
+
+    <string name="copy_right_holder">\n SOS Nigeria was developed by
+        \n <b>~ Chang Technologies, solving problems via code. ~</b>
+        \n <b>~ changtechnologies@gmail.com ~</b> </string>
+
+    <string name="title_activity_crime">CrimeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
