@@ -207,6 +207,16 @@ public class MainActivity extends AppCompatActivity
                 callFunction("08057000001");
 
                 break;
+            case "cardviewSuicide" :
+
+                callFunction("+2348062106493");
+
+                break;
+            case "cardviewRehab" :
+
+                callFunction("+2348087290000");
+
+                break;
             case "cardviewCrime" :
 
                 callIntent = new Intent(MainActivity.this, CrimeActivity.class);
