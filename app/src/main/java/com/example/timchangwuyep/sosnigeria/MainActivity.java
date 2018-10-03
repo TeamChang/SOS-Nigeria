@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity
 
             item.setChecked(true);
 
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=PackageName")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.timchangwuyep.timchangwuyep.sosnigeria")));
 
         } else if (id == R.id.nav_share) {
 
@@ -159,10 +159,10 @@ public class MainActivity extends AppCompatActivity
 
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            String shareBody = "Emergency App for Nigerians";
+            String shareLink = "https://play.google.com/store/apps/details?id=com.timchangwuyep.timchangwuyep.sosnigeria";
             String shareSub = "SOS Nigeria";
             sharingIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareLink);
             startActivity(Intent.createChooser(sharingIntent, "Share using"));
 
         } else if (id == R.id.nav_about) {
