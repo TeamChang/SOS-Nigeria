@@ -1,6 +1,7 @@
 package com.example.timchangwuyep.sosnigeria;
 
 import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.Context;
@@ -9,7 +10,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.GravityCompat;
@@ -30,7 +34,10 @@ public class MainActivity extends AppCompatActivity
     int newCheckedItem = 0;
     String customTheme;
     Intent callIntent;
+    CollapsingToolbarLayout collapsingToolbarLayout;
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -57,6 +64,21 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.mainToolBar);
         setSupportActionBar(toolbar);
+
+        //finding id of collapsing toolbar
+        collapsingToolbarLayout = findViewById(R.id.collapsingToolbar);
+
+        switch (customTheme) {
+            case "green":
+                collapsingToolbarLayout.setBackgroundResource(R.drawable.headerbackgroundgreen);
+                break;
+            case "blue":
+                collapsingToolbarLayout.setBackgroundResource(R.drawable.headerbackgroundblue);
+                break;
+            case "dracula":
+                collapsingToolbarLayout.setBackgroundResource(R.drawable.headerbackgrounddracula);
+                break;
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

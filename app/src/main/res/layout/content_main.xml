@@ -22,7 +22,7 @@
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginStart="48dp"
             app:expandedTitleMarginEnd="64dp"
-            android:background="@drawable/headerbackground">
+            android:background="@drawable/headerbackgroundgreen">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/mainToolBar"
