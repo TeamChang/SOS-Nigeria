@@ -2,12 +2,12 @@
 <resources>
     <color name="colorPrimary">#007F66</color>
     <color name="colorPrimaryDark">#005343</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#005343</color>
     <color name="viewColor">#fcfcfc</color>
 
     <!-- theme color: dracula -->
-    <color name="colorDracula">#36454F</color>
-    <color name="colorDraculaDark">#232B2B</color>
+    <color name="colorDracula">#202020</color>
+    <color name="colorDraculaDark">#161515</color>
 
     <!-- theme color: blue -->
     <color name="colorBlue">#28589C</color>

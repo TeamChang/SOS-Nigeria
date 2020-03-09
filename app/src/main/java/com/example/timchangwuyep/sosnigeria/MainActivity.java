@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity
         collapsingToolbarLayout = findViewById(R.id.collapsingToolbar);
         //nav_header_main = findViewById(R.id.nav_header_main);
 
+        //changes MainActivity ImageView
         switch (customTheme) {
             case "green":
                 collapsingToolbarLayout.setBackgroundResource(R.drawable.headerbackgroundgreen);
@@ -226,7 +227,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             case "cardviewRoadSafety" :
 
-                callFunction("070022553772");
+                callFunction("07002255377");
 
                 break;
             case "cardviewPolice" :

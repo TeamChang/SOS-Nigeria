@@ -27,6 +27,15 @@
         android:layout_marginTop="@dimen/nav_header_vertical_spacing"
         android:padding="@dimen/nav_header_vertical_spacing"
         android:text="@string/nav_header_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:text="changtechnologies@gmail.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorAccent"/>
 
 </LinearLayout>
